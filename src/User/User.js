@@ -56,7 +56,7 @@ const User = ({ userEl }) => {
                 </g>
               </svg>
               <p style={{ fontFamily: "Cursive" }}>
-                {userEl.address.street},<strong> {userEl.address.city}</strong>,{" "}
+                {userEl.address.street},<strong> {userEl.address.city}</strong>,
                 {userEl.address.zipcode}
               </p>
             </div>
@@ -89,7 +89,7 @@ const User = ({ userEl }) => {
                   />
                 </g>
               </svg>
-              <p>
+              <p style={{ fontFamily: "Cursive" }}>
                 <strong>{userEl.phone}</strong>
               </p>
             </div>
@@ -114,8 +114,8 @@ const User = ({ userEl }) => {
                   />
                 </g>
               </svg>
-              <p className="email">{userEl.email}</p>
-              <p className="web">
+              <p style={{ fontFamily: "Cursive" }} className="email">{userEl.email}</p>
+              <p style={{ fontFamily: "Cursive" }}className="web">
                 <strong>{userEl.website}</strong>
               </p>
             </div>

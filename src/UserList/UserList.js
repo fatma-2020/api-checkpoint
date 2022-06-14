@@ -19,11 +19,9 @@ const UserList = () => {
       <h1
         style={{
           color: "#202020",
-          fontFamily:"Cursive",
-          textShadow: "2px 2px #e45e4f"
-        
+          fontFamily: "Cursive",
+          textShadow: "2px 2px #e9bed5"
         }}
-        className="title"
       >
         Users List
       </h1>
