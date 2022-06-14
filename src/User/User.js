@@ -13,8 +13,8 @@ const User = ({ userEl }) => {
           </div>
           <div className="info-grid">
             <div className="name">
-              <h2>{userEl.name}</h2>
-              <h5>{userEl.username}</h5>
+              <h2 style={{ fontFamily: "Cursive" }}>{userEl.name}</h2>
+              <h5 style={{ fontFamily: "Cursive" }}>{userEl.username}</h5>
             </div>
             <div className="addr">
               <svg
@@ -55,10 +55,9 @@ const User = ({ userEl }) => {
                   </g>
                 </g>
               </svg>
-              <p>
-                {userEl.address.street},
-                <strong> {userEl.address.city}</strong>, ,
-                <strong> {userEl.address.zipcode}</strong>
+              <p style={{ fontFamily: "Cursive" }}>
+                {userEl.address.street},<strong> {userEl.address.city}</strong>,{" "}
+                {userEl.address.zipcode}
               </p>
             </div>
             <div className="phoneNo">
@@ -115,16 +114,13 @@ const User = ({ userEl }) => {
                   />
                 </g>
               </svg>
-              <p className="email">
-                {userEl.email}
-              </p>
+              <p className="email">{userEl.email}</p>
               <p className="web">
                 <strong>{userEl.website}</strong>
               </p>
             </div>
           </div>
         </div>
-        
       </div>
     </div>
   );
